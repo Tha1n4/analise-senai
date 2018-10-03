@@ -16,8 +16,8 @@ public class Principal {
 		ip.setColor(Color.YELLOW);
 		ip.setLineWidth(4);
 		ip.drawRect(10, 10, imp.getWidth() - 20, imp.getHeight() - 20);
-		getHorario();
 		imp.show();
+		getHorario();
 	}
 	
 	static String getHorario() {
